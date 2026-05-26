@@ -1,0 +1,288 @@
+
+<!doctype html>
+<html lang="fr">
+<head>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PWXXZN4K');</script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Plombier Avignon : Dépannage Urgence 24h/7j | SOS PLOMBERIE</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet" />
+
+    <style>
+        :root {
+            --primary: #0284c7;
+            --secondary: #0f172a;
+            --success: #22c55e;
+            --white: #ffffff;
+            --bg-light: #f8fafc;
+            --border: #e2e8f0;
+            --shadow: 0 20px 40px rgba(0,0,0,0.06);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Outfit', sans-serif; color: #334155; line-height: 1.6; scroll-behavior: smooth; background: #fff; overflow-x: hidden; width: 100%; }
+        h1, h2, h3, h4 { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; color: var(--secondary); letter-spacing: -1px; }
+
+        header {
+            position: fixed; top: 0; width: 100%; height: 85px;
+            background: rgba(255, 255, 255, 0.95); backdrop-filter: blur(15px);
+            border-bottom: 1px solid var(--border); display: flex; align-items: center;
+            justify-content: space-between; padding: 0 5%; z-index: 1000;
+        }
+        .logo-img { height: 55px; width: auto; object-fit: contain; }
+
+        nav.main-nav { position: absolute; left: 50%; transform: translateX(-50%); display: flex; gap: 20px; align-items: center; }
+        nav.main-nav a { text-decoration: none; color: var(--secondary); font-weight: 700; font-size: 0.9rem; white-space: nowrap; }
+        .nav-call-pro { width: 32px; height: 32px; fill: var(--success); }
+
+        .hero {
+            padding: 140px 5% 60px; min-height: 65vh;
+            background: linear-gradient(rgba(255,255,255,0.75), rgba(255,255,255,0.75)), url('plombrie.jpeg');
+            background-size: cover; background-position: center;
+            text-align: center; display: flex; flex-direction: column; align-items: center; justify-content: center;
+        }
+        .hero h1 { font-size: clamp(1.8rem, 8vw, 3.5rem); line-height: 1.1; margin-bottom: 5px; }
+        .hero h1 span { color: var(--primary); }
+        .hero-company-name { font-weight: 800; font-size: 1.5rem; color: #0284c7; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 25px; }
+        .btn-main { background: var(--primary); color: white; padding: 15px 35px; border-radius: 12px; text-decoration: none; font-weight: 800; font-size: 1.1rem; box-shadow: 0 10px 20px rgba(2, 132, 199, 0.2); }
+
+        .marquee { overflow: hidden; padding: 25px 0; background: #fff; border-bottom: 1px solid var(--border); }
+        .marquee-inner { display: inline-flex; animation: scroll 35s linear infinite; }
+        .marquee-inner img { height: 35px; margin: 0 40px; }
+
+        .services-section { padding: 80px 5%; background: var(--bg-light); }
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 25px; max-width: 1200px; margin: 0 auto; }
+        .service-card { background: white; border-radius: 20px; border: 1px solid var(--border); overflow: hidden; display: flex; flex-direction: column; }
+        .service-card img { width: 100%; height: 200px; object-fit: cover; }
+        .card-body { padding: 25px; flex-grow: 1; }
+        .price-tag { background: #e0f2fe; color: var(--primary); padding: 4px 10px; border-radius: 6px; font-weight: 800; font-size: 0.8rem; margin-bottom: 10px; display: inline-block; }
+
+        .faq-section { padding: 80px 5%; max-width: 900px; margin: 0 auto; }
+        .faq-section h2 { text-align: center; margin-bottom: 30px; }
+        .details { border-bottom: 1px solid var(--border); padding: 15px 0; cursor: pointer; }
+        summary { font-weight: 700; list-style: none; display: flex; justify-content: space-between; align-items: center; }
+        details p { padding-top: 10px; color: #64748b; font-size: 0.95rem; }
+
+        .reviews-section { padding: 80px 5%; background: #fff; overflow: hidden; text-align: center; border-top: 1px solid var(--border); }
+        .review-container { max-width: 1200px; margin: 0 auto; position: relative; overflow: hidden; }
+        .review-track { display: flex; transition: transform 0.5s ease-in-out; }
+        .review-group { display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; min-width: 100%; }
+        .review-card { background: var(--bg-light); padding: 25px; border-radius: 15px; position: relative; border: 1px solid var(--border); text-align: left; }
+
+        .contact-section { padding: 100px 5%; background: var(--secondary); color: white; border-radius: 50px 50px 0 0; }
+        .contact-container { max-width: 1150px; margin: 0 auto; display: grid; grid-template-columns: 1.2fr 1fr; gap: 60px; align-items: start; }
+        .form-explanation h2 { color: white; font-size: 2.8rem; margin-bottom: 25px; }
+        .step-list { margin-top: 30px; display: grid; gap: 25px; }
+        .step-item { display: flex; gap: 15px; align-items: start; }
+        .step-num { background: var(--primary); color: white; width: 30px; height: 30px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; flex-shrink: 0; }
+        .step-item p { color: #cbd5e1; font-size: 0.95rem; line-height: 1.5; }
+        .step-item strong { color: white; display: block; margin-bottom: 5px; }
+
+        .form-card { background: white; padding: 45px; border-radius: 30px; color: var(--secondary); box-shadow: 0 30px 60px rgba(0,0,0,0.3); }
+        input, select, textarea { width: 100%; padding: 16px; border: 1px solid #e2e8f0; border-radius: 10px; margin-bottom: 15px; background: #f8fafc; font-family: inherit; font-size: 16px; }
+        .btn-submit { width: 100%; background: var(--primary); color: white; padding: 20px; border-radius: 12px; border: none; font-weight: 800; cursor: pointer; }
+
+        .legal-footer { background: #000; padding: 80px 5% 40px; color: #94a3b8; font-size: 0.85rem; }
+        .legal-grid { max-width: 1200px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px; border-bottom: 1px solid #1e293b; padding-bottom: 40px; }
+        .legal-box h5 { color: white; margin-bottom: 15px; text-transform: uppercase; letter-spacing: 1px; }
+
+        #cookie-banner { position: fixed; bottom: 20px; left: 20px; right: 20px; background: #fff; border: 1px solid var(--border); border-radius: 16px; padding: 25px; z-index: 10000; box-shadow: 0 15px 40px rgba(0,0,0,0.15); display: none; max-width: 400px; }
+        .banner-btns { display: flex; gap: 10px; margin-top: 15px; }
+        .banner-btns button { flex: 1; padding: 10px; border-radius: 8px; font-weight: 700; border: none; cursor: pointer; }
+        .floating-call { position: fixed; bottom: 20px; right: 20px; background: var(--success); color: white; padding: 12px 25px; border-radius: 50px; text-decoration: none; font-weight: 800; z-index: 2000; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); display: flex; align-items: center; gap: 10px; }
+
+        @keyframes scroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+        @media (max-width: 768px) {
+            header { height: 75px; padding: 0 15px; }
+            .logo-img { height: 40px; }
+            nav.main-nav { position: static; transform: none; margin: 0 auto; gap: 10px; }
+            nav.main-nav a { font-size: 0.75rem; }
+            .review-group { grid-template-columns: 1fr; }
+            .contact-container { grid-template-columns: 1fr; }
+            .form-card { padding: 25px; }
+        }
+    </style>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('consent', 'default', {'ad_storage': 'denied', 'ad_user_data': 'denied', 'ad_personalization': 'denied', 'analytics_storage': 'denied'});
+        function updateConsent(s) { const st = s === 'granted' ? 'granted' : 'denied'; gtag('consent', 'update', {'ad_storage': st, 'ad_user_data': st, 'ad_personalization': st, 'analytics_storage': st}); document.getElementById('cookie-banner').style.display = 'none'; localStorage.setItem('plomb_consent', 'true'); }
+        window.addEventListener('load', () => { if (!localStorage.getItem('plomb_consent')) document.getElementById('cookie-banner').style.display = 'block'; });
+    </script>
+</head>
+<body>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PWXXZN4K" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+    <div id="cookie-banner">
+        <p style="font-weight: 800; font-size: 1rem; color:var(--secondary);">Protection des données 🛡️</p>
+        <p style="font-size: 0.85rem; color: #666;">SOS PLOMBERIE utilise des cookies pour optimiser votre dépannage.</p>
+        <div class="banner-btns">
+            <button style="background:#f0f0f0;" onclick="updateConsent('denied')">Refuser</button>
+            <button style="background:var(--primary); color:white;" onclick="updateConsent('granted')">Accepter</button>
+        </div>
+    </div>
+
+    <header>
+        <a href="#accueil"><img src="sosplombrie.jpg" alt="SOS PLOMBERIE" class="logo-img"></a>
+        <nav class="main-nav">
+            <a href="#accueil">Accueil</a>
+            <a href="#services">Services</a>
+            <a href="#faq">Faq</a>
+            <a href="#contact">Devis</a>
+        </nav>
+        <a href="tel:0605722391">
+            <svg class="nav-call-pro" viewBox="0 0 24 24"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1H7c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+        </a>
+    </header>
+
+    <section class="hero" id="accueil">
+        <h1>Artisan Plombier <span>Avignon</span><br>Dépannage & Travaux</h1>
+        <div class="hero-company-name">SOS PLOMBERIE</div>
+        <p>Intervention immédiate en moins de 30 minutes partout dans Avignon et ses alentours.</p>
+        <a href="tel:0605722391" class="btn-main">📞 APPELER MAINTENANT</a>
+    </section>
+
+    <div class="marquee">
+        <div class="marquee-inner">
+            <img src="axa.png" alt="AXA"><img src="Maaf.png" alt="MAAF"><img src="matmut.png" alt="Matmut"><img src="generali.png" alt="Generali"><img src="allianze.png" alt="Allianz"><img src="maif.png" alt="MAIF"><img src="macif.png" alt="Macif"><img src="groupama.png" alt="Groupama">
+            <img src="axa.png" alt="AXA"><img src="Maaf.png" alt="MAAF"><img src="matmut.png" alt="Matmut"><img src="generali.png" alt="Generali"><img src="allianze.png" alt="Allianz"><img src="maif.png" alt="MAIF"><img src="macif.png" alt="Macif"><img src="groupama.png" alt="Groupama">
+        </div>
+    </div>
+
+    <section class="services-section" id="services">
+        <div style="text-align: center; margin-bottom: 40px;"><h2 style="font-size: 2.5rem;">Interventions Prioritaires</h2></div>
+        <div class="services-grid">
+            <div class="service-card">
+                <img src="fuite.jpeg" alt="Fuite">
+                <div class="card-body">
+                    <span class="price-tag">Dès 120€ HT</span>
+                    <h3>Recherche de fuite</h3>
+                    <p>Détection non-destructive haute technologie par corrélation acoustique ou caméra thermique. Localisation précise du sinistre sans endommager vos cloisons ou sols. Rapport détaillé fourni pour vos assurances.</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <img src="debouchage.jpeg" alt="Débouchage">
+                <div class="card-body">
+                    <span class="price-tag">Dès 80€ HT</span>
+                    <h3>Débouchage Express</h3>
+                    <p>WC, éviers, baignoires ou colonnes générales bouchés ? Nous intervenons avec des pompes à haute pression et furets électriques pour un rétablissement immédiat de vos évacuations 24h/7j.</p>
+                </div>
+            </div>
+            <div class="service-card">
+                <img src="Installation Sanitaire.jpeg" alt="Installation">
+                <div class="card-body">
+                    <span class="price-tag">Sur Devis Gratuit</span>
+                    <h3>Sanitaires & Ballon</h3>
+                    <p>Pose de mitigeurs, remplacement de WC ou dépannage urgent de chauffe-eau. En cas de panne de ballon, nous procédons au remplacement par du matériel certifié sous 24h avec garantie constructeur.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section" id="faq">
+        <h2>Questions Fréquentes</h2>
+        <details><summary>Quels sont vos délais d'intervention ?</summary><p>Nous intervenons en moins de 30 minutes pour les urgences critiques dans Avignon et sa région.</p></details>
+        <details><summary>Quels modes de paiement acceptez-vous ?</summary><p>CB (terminal sécurisé), Chèques et Espèces sont acceptés par nos artisans sur place.</p></details>
+        <details><summary>Appliquez-vous une majoration de nuit ?</summary><p>Une majoration s'applique pour les interventions entre 20h et 7h, ainsi que les weekends et jours fériés.</p></details>
+        <details><summary>Êtes-vous agréés assurances ?</summary><p>Oui, nos factures respectent les normes strictes pour vos demandes de remboursement (dégât des eaux).</p></details>
+        <details><summary>Possédez-vous une garantie décennale ?</summary><p>Absolument. SOS PLOMBERIE est couvert par une RCP et une garantie décennale pour tous les travaux d'installation.</p></details>
+    </section>
+
+    <section class="reviews-section" id="avis">
+        <h2>Avis Clients Google (5.0/5)</h2>
+        <div class="review-container"><div class="review-track" id="track"></div></div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <div class="contact-container">
+            <div class="form-explanation">
+                <h2>Votre Devis Gratuit</h2>
+                <div class="step-list">
+                    <div class="step-item"><div class="step-num">1</div><p><strong>Demande prioritaire</strong>Remplissez le formulaire ci-contre pour un traitement immédiat par nos équipes SOS PLOMBERIE.</p></div>
+                    <div class="step-item"><div class="step-num">2</div><p><strong>Validation sous 5 min</strong>Un technicien expert vous rappelle pour effectuer un pré-diagnostic téléphonique gratuit.</p></div>
+                    <div class="step-item"><div class="step-num">3</div><p><strong>Intervention & Devis</strong>Arrivée rapide sur les lieux et remise d'un devis détaillé et gratuit avant tout début de travaux.</p></div>
+                </div>
+            </div>
+            <div class="form-card">
+                <form action="https://formspree.io/f/xgoreykb" method="POST">
+                    <input type="text" name="nom" placeholder="Votre Nom complet" required>
+                    <input type="tel" name="tel" placeholder="Téléphone" required>
+                    <select name="type" required>
+                        <option value="" disabled selected>Nature du problème...</option>
+                        <option value="Fuite">Fuite d'eau</option>
+                        <option value="Debouchage">Canalisation bouchée</option>
+                        <option value="Autre">Installation / Sanitaire</option>
+                    </select>
+                    <textarea name="msg" rows="3" placeholder="Description de l'urgence..."></textarea>
+                    <button type="submit" class="btn-submit">VALIDER MA DEMANDE</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="legal-footer">
+        <div class="legal-grid">
+            <div class="legal-box"><h5>SOS PLOMBERIE AVIGNON</h5><p>SIRET : 994 413 227 00012<br>Siège : Provence-Alpes-Côte d'Azur, France<br>Hébergeur : Netlify Inc.</p></div>
+            <div class="legal-box"><h5>CGV & TARIFS</h5><p>Déplacement forfaitaire dès 30€. Devis signé obligatoire avant tous travaux. Tarifs HT précisés avant intervention.</p></div>
+            <div class="legal-box"><h5>RGPD & VIE PRIVÉE</h5><p>Données traitées exclusivement pour l'intervention d'urgence. Droit d'accès et suppression sur simple demande.</p></div>
+        </div>
+        <p style="text-align: center; margin-top: 30px; opacity: 0.6;">© 2026 SOS PLOMBERIE AVIGNON - Tous droits réservés.</p>
+    </footer>
+
+    <a href="tel:0605722391" class="floating-call">📞 06 05 72 23 91</a>
+
+    <script>
+        const reviews = [
+            {n:"Jean M. (Avignon)", t:"Fuite réglée en 20 min. Prix honnête et travail soigné."},
+            {n:"Sarah L. (Carpentras)", t:"Plombier très poli. Débouchage évier rapide."},
+            {n:"Patrick D. (Avignon)", t:"Super service dimanche soir. Réactivité imbattable !"},
+            {n:"Michel B. (Cavaillon)", t:"Installation parfaite. Facture acceptée assurance."},
+            {n:"Lucie F. (Orange)", t:"Efficace pour un dégât des eaux. Merci !"},
+            {n:"Karim V. (Avignon)", t:"Prix correct pour une urgence de nuit. Très pro."},
+            {n:"Thomas L. (Avignon)", t:"Intervention propre et rapide. Je recommande SOS Plomberie."},
+            {n:"Robert S. (Avignon)", t:"Sérieux et ponctuel. Un vrai artisan local."},
+            {n:"Nadine G. (Le Pontet)", t:"Facture conforme pour mon assurance AXA. Parfait."},
+            {n:"Mélanie T. (Avignon)", t:"Service au top du début à la fin !"},
+            {n:"Antoine B.", t:"Dépannage chauffe-eau ultra rapide. Merci !"},
+            {n:"Chloé R.", t:"Artisan très pro et transparent sur les prix."},
+            {n:"Lucas P.", t:"Débouchage WC parfait, arrivé en 15 min."},
+            {n:"Sophie K.", t:"Excellent travail, propre et rapide."},
+            {n:"Yassine M.", t:"Disponible de nuit, m'a sauvé d'une inondation."},
+            {n:"Marie V.", t:"Devis respecté, pas de mauvaise surprise."},
+            {n:"Eric D.", t:"Réparation de fuite efficace. Je recommande."},
+            {n:"Valérie J.", t:"Professionnel et à l'écoute des clients."},
+            {n:"Nicolas S.", t:"Enfin un bon plombier dans la région !"},
+            {n:"Inès G.", t:"Super réactivité pour mon sinistre."},
+            {n:"Simon F.", t:"Installation mitigeur impeccable."},
+            {n:"Laura B.", t:"Rapide, efficace et honnête."},
+            {n:"Kevin L.", t:"Travail impeccable sous évier."},
+            {n:"Monique H.", t:"Très satisfaite de l'intervention."},
+            {n:"Sébastien Z.", t:"Artisan au top pour les urgences."},
+            {n:"Céline W.", t:"Prix correct et travail soigné."},
+            {n:"Fabien Q.", t:"Service client très réactif."},
+            {n:"Nathalie X.", t:"Facture acceptée par mon assureur."},
+            {n:"Olivier C.", t:"Plombier très compétent. Bravo."},
+            {n:"Julie R.", t:"Intervention parfaite à Avignon."}
+        ];
+        const track = document.getElementById('track');
+        function build() {
+            track.innerHTML = ''; const pGroup = (window.innerWidth <= 768) ? 1 : 3;
+            const gSvg = '<svg style="width:22px;position:absolute;top:20px;right:20px;" viewBox="0 0 24 24"><path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/><path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/><path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l3.66-2.84z" fill="#FBBC05"/><path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 12-4.53z" fill="#EA4335"/></svg>';
+            for (let i = 0; i < reviews.length; i += pGroup) {
+                const group = document.createElement('div'); group.className = 'review-group';
+                group.innerHTML = reviews.slice(i, i + pGroup).map(r => `<div class="review-card">${gSvg}<div style="color:#facc15;margin-bottom:10px;">★★★★★</div><p style="font-size:0.8rem;">"${r.t}"</p><h4 style="font-size:0.85rem;margin-top:10px;">- ${r.n}</h4></div>`).join('');
+                track.appendChild(group);
+            }
+        }
+        build(); window.addEventListener('resize', build);
+        let cur = 0; setInterval(() => { cur = (cur + 1) % track.children.length; track.style.transform = `translateX(-${cur * 100}%)`; }, 3000);
+    </script>
+</body>
+</html>
